@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Services</title>
+    <link rel="stylesheet" href="webdevelopment.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development Services</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Welcome to our web development services website. We offer a range of services including website design, development, and maintenance.</p>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <ul>
+                <li>Website Design</li>
+                <li>Website Development</li>
+                <li>Website Maintenance</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Test your knowledge with this quiz</h2>
+            <h2>Question 1</h2>
+            <p>What does HTML stand for?</p>
+            <input type="radio" name="q1" value="a"> Hyper Text Markup Language<br>
+            <input type="radio" name="q1" value="b"> Hyperlinks and Text Markup Language<br>
+            <input type="radio" name="q1" value="c"> Home Tool Markup Language<br>
+        </section>
+        <section>
+            <h2>Question 2</h2>
+            <p>What is the correct way to link an external CSS file to your HTML document?</p>
+            <input type="radio" name="q2" value="a"> &lt;link rel="stylesheet" href="styles.css"&gt;<br>
+            <input type="radio" name="q2" value="b"> &lt;style src="styles.css"&gt;<br>
+            <input type="radio" name="q2" value="c"> &lt;style href="styles.css"&gt;<br>
+        </section>
+        <section>
+            <h2>Question 3</h2>
+            <p>Which of the following is used to create a responsive website?</p>
+            <input type="radio" name="q3" value="a"> Bootstrap<br>
+            <input type="radio" name="q3" value="b"> jQuery<br>
+            <input type="radio" name="q3" value="c"> Angular<br>
+            <h2>Question 4</h2>
+            <p>What does CSS stand for?</p>
+            <input type="radio" name="q4" value="a"> Cascading Style Sheets<br>
+            <input type="radio" name="q4" value="b"> Creative Style Sheets<br>
+            <input type="radio" name="q4" value="c"> Computer Style Sheets<br>
+            <h2>Question 5</h2>
+            <p>Which tag is used to define an unordered list in HTML?</p>
+            <input type="radio" name="q5" value="a"> &lt;ul&gt;<br>
+            <input type="radio" name="q5" value="b"> &lt;ol&gt;<br>
+            <input type="radio" name="q5" value="c"> &lt;li&gt;<br>
+        </section>
+        <button id="submitQuiz">Submit Quiz</button>
+        <p id="result"></p>
+        <section>
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="webdevelopment.js"></script>
+</body>
+</html>
